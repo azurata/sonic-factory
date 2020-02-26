@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sonic-factory"
+		},
+		"CoronaVirus_connectionString": {
+			"value": ""
+		},
+		"CoronaVirus_password": {
+			"value": ""
+		},
+		"AzureDataLakeStore1_properties_typeProperties_dataLakeStoreUri": {
+			"value": "https://soniclake.azuredatalakestore.net/webhdfs/v1"
+		},
+		"AzureDataLakeStore1_properties_typeProperties_tenant": {
+			"value": "a29eac54-12d8-4319-8f7c-47ba71f4fc81"
+		},
+		"AzureDataLakeStore1_properties_typeProperties_subscriptionId": {
+			"value": "c1a1355b-babb-4347-b0ac-265ba4b2b72e"
+		},
+		"AzureDataLakeStore1_properties_typeProperties_resourceGroupName": {
+			"value": "SonicDemo"
+		},
+		"CoronaVirus_properties_typeProperties_userName": {
+			"value": "azurata"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
