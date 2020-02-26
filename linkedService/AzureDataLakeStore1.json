@@ -1,0 +1,17 @@
+{
+	"name": "AzureDataLakeStore1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://soniclake.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "a29eac54-12d8-4319-8f7c-47ba71f4fc81",
+			"subscriptionId": "c1a1355b-babb-4347-b0ac-265ba4b2b72e",
+			"resourceGroupName": "SonicDemo"
+		},
+		"connectVia": {
+			"referenceName": "soniclakeIR1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
